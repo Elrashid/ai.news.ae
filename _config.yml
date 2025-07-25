@@ -9,3 +9,4 @@ plugins:
   - jekyll‑sitemap
   - jekyll‑paginated‑content # optional for pagination
   - jekyll‑lunr‑js‑search   # optional for instant search
+exclude: [vendor]
