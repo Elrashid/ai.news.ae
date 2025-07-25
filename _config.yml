@@ -1,11 +1,19 @@
 title: AI-in-UAE News
-theme: minima        # or any Jekyll theme you like
+theme: minima
+
 collections:
   news:
-    output: true     # every file in _news becomes a page
+    output: true
     permalink: /news/:slug/
+
 plugins:
-  - jekyll-feed      # RSS/Atom feed
+  - jekyll-feed
   - jekyll-sitemap
-  - jekyll-paginated-content # optional for pagination
-  - jekyll-lunr-js-search   # optional for instant search
+  - jekyll-paginate-v2  # Note: use jekyll-paginate-v2 for collection pagination
+
+pagination:
+  enabled: true
+  per_page: 50
+  permalink: '/page/:num/'
+  title: ':title - page :num'
+  sort_reverse: true
