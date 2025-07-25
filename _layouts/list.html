@@ -5,12 +5,12 @@ pagination:
   collection: news
   per_page: 50
 ---
-<h1 class="text-3xl font-bold mb-6">AI‑in‑UAE News</h1>
+<h1 class="text-3xl font-bold mb-6">AI-in-UAE News</h1>
 
 <ul class="space-y-3">
 {% for post in paginator.posts %}
   <li>
-    <span class="text-gray-500">{{ post.date | date: "%Y‑%m‑%d" }}</span>
+    <span class="text-gray-500">{{ post.date | date: "%Y-%m-%d" }}</span>
     — <a href="{{ post.url }}">{{ post.title }}</a>
     {% if post.tags %}<span class="text-xs bg-gray-200 px-2 py-0.5 rounded">
       {{ post.tags | join: ", " }}</span>{% endif %}
