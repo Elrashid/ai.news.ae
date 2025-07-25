@@ -1,6 +1,6 @@
 ---
 title: "Dubai launches $200 M AI Hub"
-date: 2025‑06‑25
+date: 2025-06-25
 source: "Gulf Business"
 link:  "https://gulfbusiness.com/dubai‑ai‑hub/"
 tags:  [investment, dubai‑government]
