@@ -1,0 +1,11 @@
+title: AI‑in‑UAE News
+theme: minima        # or any Jekyll theme you like
+collections:
+  news:
+    output: true     # every file in _news becomes a page
+    permalink: /news/:slug/
+plugins:
+  - jekyll‑feed      # RSS/Atom feed
+  - jekyll‑sitemap
+  - jekyll‑paginated‑content # optional for pagination
+  - jekyll‑lunr‑js‑search   # optional for instant search
